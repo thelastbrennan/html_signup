@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign-up Sheet</title>
+<link href="signup.css" rel="stylesheet" text="text/css"></link>
+</head>
+<body>
+	<div class ="bg">
+		<img src="waterfall.jpg">
+		<div class="name">
+			<img src="logo.png">
+			<p>Cascade Solutions</p>
+		</div>
+	</div>
+	<div class="right">
+		<div class="filler">
+			<p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started<br></br>You know you want to.
+			</p>
+		</div>
+	<form action=" ">
+		<fieldset>
+		
+			<div class="design">
+				<label for="first_name">First Name</label>
+				<input required type="text" id="first_name" autocomplete="given-name" placeholder="Matthew" required>
+			</div>
+			
+			<div class="design">
+				<label for="last_name">Last Name</label>
+				<input required type="text" id="last_name" autocomplete="given-name" placeholder="McGeeney" required>
+			</div>
+			
+			<div class="design">
+				<label for="email">Email</label>
+				<input required type="email" id="email" autocomplete="email" placeholder="mrmmatt@icloud.com" required>
+			</div>
+			
+			<div class="design">
+				<label for="phone-number">Phone number</label>
+                <input type="text" name="phone-number" id="phone-number" minlength="12" maxlength="12" placeholder="631-428-6011"required>
+			</div>		
+			
+			<div class="design">
+				<label for="password">Password</label>
+                <input type="text" name="password" id="password" required>
+			</div>
+			<div class="design">
+                <label for="confirm-password">Confirm password</label>
+                <input type="password" name="confirm-password" id="confirm-password" required>
+            </div>
+			<div class="button left"><button type="submit">Create Account</button></div>
+		</fieldset>
+	</form>
+	<div class="log-in left"><p>Already have an account? &nbsp;<a href="#">Log in</a></p></div>
+</body>
+</html>
